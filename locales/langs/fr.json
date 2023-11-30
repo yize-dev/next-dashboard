@@ -1,0 +1,13 @@
+{
+    "dashboard": "application",
+    "order": "commande",
+    "pending": "en attente",
+    "fulfilled": "rempli",
+    "reship": "réexpédier",
+    "product": "produit",
+    "invoice": "facture",
+    "inquiry": "demande",
+    "inspection": "inspection",
+    "settings": "paramètres",
+    "blank": "blanc"
+}

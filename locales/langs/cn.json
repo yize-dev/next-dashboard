@@ -1,0 +1,13 @@
+{
+    "dashboard": "仪表板",
+    "order": "订单",
+    "pending": "待处理",
+    "fulfilled": "已完成",
+    "reship": "补发",
+    "product": "产品",
+    "invoice": "发票",
+    "inquiry": "询盘",
+    "inspection": "商品核查",
+    "settings": "设置",
+    "blank": "空白页"
+}

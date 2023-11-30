@@ -1,0 +1,13 @@
+{
+    "dashboard": "dashboard",
+    "order": "order",
+    "pending": "pending",
+    "fulfilled": "fulfilled",
+    "reship": "reship",
+    "product": "product",
+    "invoice": "invoice",
+    "inquiry": "inquiry",
+    "inspection": "inspection",
+    "settings": "settings",
+    "blank": "blank"
+}

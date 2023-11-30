@@ -1,0 +1,28 @@
+@keyframes initial-loader-animation {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    100% {
+        -webkit-transform: scale(0.95);
+        transform: scale(0.95);
+        opacity: 0.5;
+    }
+}
+
+
+.loading-in-container {
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    z-index: 999999;
+    top: 50%;
+    left: 50%;
+    margin-left: -150px;
+    margin-top: -150px;
+
+    animation: initial-loader-animation 0.6s cubic-bezier(0.53, 0.22, 0.85, 0.58) 0s infinite alternate;
+}
+

@@ -1,0 +1,17 @@
+import { matchPath } from 'react-router-dom';
+import { usePathname } from 'next/navigation';
+
+
+// ----------------------------------------------------------------------
+
+type ReturnType = boolean;
+
+export function useActiveLink(path: string, deep = true): ReturnType {
+  const  pathname  = usePathname();
+
+  const normalActive = path ? !!matchPath({ path, end: true }, pathname) : false;
+
+  const deepActive = path ? !!matchPath({ path, end: false }, pathname) : false;
+
+  return deep ? deepActive : normalActive;
+}
